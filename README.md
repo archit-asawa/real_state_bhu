@@ -82,22 +82,6 @@ Copy the example environment file and configure your variables:
 cp .env.example .env
 ```
 
-Update `.env` with your configuration:
-
-```env
-NODE_ENV=development
-PORT=3000
-
-# Database
-MONGODB_URI=mongodb://localhost:27017/bhu-expert
-
-# Redis (optional)
-REDIS_HOST=localhost
-REDIS_PORT=6379
-
-# Google Maps API
-GOOGLE_MAPS_API_KEY=your_google_maps_api_key_here
-```
 
 ### 3. Database Setup
 
